@@ -6,7 +6,7 @@ import mongoose, { Schema } from 'mongoose';
 
 const PostSchema = new Schema({
     title: String,
-    tags: String,
+    tags: [String],
     content: String,
     coverUrl: String,
 }, {
