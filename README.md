@@ -1,10 +1,11 @@
-# CRUD API
+# MemoryScape Backend
 
-*an api server that returns post information which is stored in mongodb*
+## Features
+* Returns a frontend upon GETing the "/" route.
+* Frontend allows users to sign into google photos and spotify
+* Stores their access tokens in firebase upon login
+* There is a get route which returns both access tokens from firebase
 
-[deployed url](https://devon-api-6xwz.onrender.com)
+Run ```npm install``` to install necessary packages, and ```npm start``` to start the server.
 
-## Extra credit
-* Added a search feature - I didn't use the code on the assignment because it didn't grab what it was supposed to
-* Made the tags into an array, this is now how they are stored in the backend and in redux, and whenever they are edited it displays a string with all of them joined with ", "
-* My edit note form now has required fields so you can't leave any of them empty while editing
+Access the server by going to http://localhost:9090. This route returns the frontend.
