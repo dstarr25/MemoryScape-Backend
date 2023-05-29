@@ -2,7 +2,10 @@ import express from 'express';
 import cors from 'cors';
 import path from 'path';
 import morgan from 'morgan';
+import dotenv from 'dotenv';
 import routes from './routes';
+
+dotenv.config({ silent: true });
 
 // initialize
 const app = express();
