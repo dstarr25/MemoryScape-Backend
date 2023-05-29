@@ -17,7 +17,7 @@ const clientSecrets = () => {
 
 const getUrl = (req) => {
     const host = req.get('host');
-    const { protocol } = req;
+    const protocol = 'https';
     const url = `${protocol}://${host}`;
     return url;
 };
