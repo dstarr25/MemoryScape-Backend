@@ -9,3 +9,5 @@
 Run ```npm install``` to install necessary packages, and ```npm start``` to start the server.
 
 Access the server by going to http://localhost:9090. This route returns the frontend.
+
+Backend now hosted at https://memoryscape.onrender.com/
